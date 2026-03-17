@@ -1,4 +1,4 @@
-import styles from "./Navbar.module.css";
+import styles from "./NavBar.module.css";
 import { Heart, ShoppingBag, User } from "iconsax-react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
