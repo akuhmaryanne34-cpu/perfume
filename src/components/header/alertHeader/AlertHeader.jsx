@@ -1,4 +1,4 @@
-import styles from "./AlertHeader.module.css";
+import styles from "./alertHeader.module.css";
 import { FaTiktok, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
 const AlertHeader = () => {

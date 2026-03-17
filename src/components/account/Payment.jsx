@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import styles from "./Payment.module.css";
+import styles from "./payment.module.css";
 
 const Payment = () => {
   const [cards, setCards] = useState([]);

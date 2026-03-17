@@ -1,6 +1,6 @@
 import { useShop } from "../../context/ShopContext";
 import ProductCard from "../productcard/ProductCard";
-import styles from "./Wishlist.module.css";
+import styles from "./wishlist.module.css";
 
 const Wishlist = () => {
   const { wishlist } = useShop();
