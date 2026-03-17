@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import styles from "./Profile.module.css";
+import styles from "./profile.module.css";
 
 const Profile = () => {
   const [avatar, setAvatar] = useState(null);

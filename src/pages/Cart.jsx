@@ -8,7 +8,7 @@ import Features from "../components/features/Features";
 import Footer from "../components/footer/Footer";
 import Copyright from "../components/copyright/Copyright";
 
-import styles from "./Cart.module.css";
+import styles from "./cart.module.css";
 
 const Cart = () => {
   const navigate = useNavigate();

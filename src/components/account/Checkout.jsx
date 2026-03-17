@@ -1,5 +1,5 @@
 import { useLocation, useNavigate } from "react-router-dom";
-import styles from "./Checkout.module.css";
+import styles from "./checkout.module.css";
 
 const Checkout = () => {
   const location = useLocation();
