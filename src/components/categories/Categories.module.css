@@ -1,0 +1,75 @@
+.section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 4rem 6rem;
+  background: #ffffff;
+}
+
+
+.card {
+  height: 320px;
+  border-radius: 28px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  transition: transform 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.65),
+    rgba(0, 0, 0, 0.3),
+    transparent
+  );
+}
+
+
+.overlay {
+  position: relative;
+  padding: 2rem;
+  color: #fff;
+  z-index: 2;
+}
+
+.badge {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+    font-family: "Arimo", sans-serif;
+  display: inline-block;
+  backdrop-filter: blur(6px);
+}
+
+.overlay h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.overlay ul {
+  list-style: none;
+  padding: 0;
+    font-family: "Arimo", sans-serif;
+}
+
+.overlay li {
+  font-size: 0.85rem;
+    font-family: "Arimo", sans-serif;
+  opacity: 0.9;
+  margin-bottom: 4px;
+}

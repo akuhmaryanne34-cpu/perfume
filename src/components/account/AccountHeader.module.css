@@ -1,0 +1,16 @@
+.header {
+  background: #fae6e6;
+  padding: 60px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 32px;
+  font-family: "Roboto",sans-serif;
+  margin-bottom: 8px;
+}
+
+.header p {
+  color: #2a030a;
+  font-family: "Arimo",sans-serif;
+}

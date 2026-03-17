@@ -1,0 +1,48 @@
+.section {
+  padding: 6rem 8rem;
+  background: #fafaf9;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.header h2 {
+  font-size: 2.2rem;
+   font-family: "Roboto",sans-serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.header p {
+  color: #343333;
+  font-family: "Arimo",sans-serif;
+  font-size: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.viewMoreWrapper {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.viewMoreBtn {
+  padding: 0.8rem 2rem;
+  border: 1px solid #2a030a;
+  border-radius: 26px;
+  color: #fdfaf6;
+  background: #2a030a;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.viewMoreBtn:hover {
+  background: #2a030a;
+  color: white;
+}

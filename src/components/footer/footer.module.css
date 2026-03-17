@@ -1,0 +1,103 @@
+.footer {
+  background: #210207;
+  color: white;
+  padding: 4rem 6rem;
+  margin-top: 5rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  gap: 3rem;
+}
+
+.brand h2 {
+  font-size: 24px;
+  letter-spacing: 3px;
+    font-family: "Roboto",sans-serif;
+  margin-bottom: 1rem;
+}
+
+.brand p {
+  color: #c8b8b8;
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: "Arimo",sans-serif;
+  max-width: 260px;
+}
+
+.socials {
+  display: flex !important;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.socials svg {
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.socials svg:hover {
+  color: #e8b4b8;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.links h4 {
+  margin-bottom: 1rem;
+    font-family: "Roboto",sans-serif;
+  font-size: 16px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #c8b8b8;
+    font-family: "Arimo",sans-serif;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  color: white;
+}
+
+.newsletter h4 {
+  margin-bottom: 1rem;
+    font-family: "Roboto",sans-serif;
+}
+
+.newsletter p {
+  font-size: 14px;
+  color: #c8b8b8;
+    font-family: "Arimo",sans-serif;
+  margin-bottom: 1rem;
+}
+
+.inputBox {
+  display: flex;
+  background: white;
+    font-family: "Arimo",sans-serif;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.inputBox input {
+  flex: 1;
+  border: none;
+  padding: 0.7rem;
+  outline: none;
+}
+
+.inputBox button {
+  background: #e8b4b8;
+  border: none;
+    font-family: "Arimo",sans-serif;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  font-weight: 600;
+}

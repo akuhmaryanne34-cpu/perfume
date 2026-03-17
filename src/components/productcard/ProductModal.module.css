@@ -1,0 +1,79 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal {
+  background: white;
+  width: 800px;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.modal img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.details {
+  padding: 3rem;
+  flex: 1;
+}
+
+.details h2 {
+    font-family: "Roboto",sans-serif;
+  margin-bottom: 1rem;
+  color: #2a030a;
+}
+
+.details p {
+  margin-bottom: 1rem;
+  font-family: "Arimo",sans-serif;
+  color: #343333;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: "Roboto",sans-serif;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: none;
+  background: transparent;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.cartBtn {
+  background: #2a030a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.wishBtn {
+  border: 1px solid #2a030a;
+  border-radius: 5px;
+  background: transparent;
+  padding: 10px 16px;
+  cursor: pointer;
+}

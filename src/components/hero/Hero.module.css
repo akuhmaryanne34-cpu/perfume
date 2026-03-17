@@ -1,0 +1,122 @@
+.hero {
+  display: flex;
+  height: 80vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 5rem;
+  background: #f6f2ed;
+
+}
+
+
+
+.left {
+  flex: 1;
+  max-width: 480px;
+}
+
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+   font-family: "Arimo", sans-serif;
+  background: #ffff;
+  color: #210207;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.tag img{
+    width: 22px;
+    height: 22px;
+    border-radius: 18px;
+}
+.left h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+   font-family: "Roboto", sans-serif;
+  color: #210207;
+  margin-bottom: 1.2rem;
+  letter-spacing: -1px;
+}
+
+
+.left p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #100f0f;
+   font-family: "Arimo", sans-serif;
+  margin-bottom: 1.8rem;
+  max-width: 420px;
+}
+
+
+.shopBtn {
+  padding: 0.9rem 2.2rem;
+  border-radius: 50px;
+  border: none;
+  background: #210207;
+  color: white;
+  font-size: 0.9rem;
+  font-family: "Arimo", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.35s ease;
+}
+
+
+.shopBtn:hover {
+  background: #480415;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 25px rgba(33, 2, 7, 0.2);
+}
+
+.carouselWrapper {
+  width: 380px;
+  background: white;
+  padding: 1rem;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.08);
+}
+
+
+.carouselTrack {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.6s ease;
+  
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.arrow {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  background: #210207;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Arimo", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.arrow:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}

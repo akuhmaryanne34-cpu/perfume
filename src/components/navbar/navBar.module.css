@@ -1,0 +1,103 @@
+.navbar {
+  width: 100%;
+  background-color: #fffdfa; 
+  display: flex;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 4rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 3px;
+  color: #210207; 
+  cursor: pointer;
+}
+
+
+.links {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+  font-size: 0.95rem;
+}
+
+.links li {
+  position: relative;
+}
+
+.links a {
+  text-decoration: none;
+  color: #210207;
+  transition: 0.3s ease;
+  font-family: "Arimo", sans-serif;
+  font-weight: 500;
+}
+
+.links li::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 0%;
+  height: 1px;
+  background: #210207;
+  transition: 0.3s ease;
+}
+
+.links li:hover::after {
+  width: 100%;
+}
+
+
+.icons {
+  display: flex;
+  gap: 1.5rem;
+  color: #210207;
+  align-items: center;
+}
+
+.icons a {
+ color: inherit;
+  display: flex;
+  align-items: center;
+  transition: 0.3s ease;
+}
+
+/* Hover effect */
+.icons a:hover {
+  color: #210207;
+  transform: translateY(-2px);
+}
+.iconWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.badge {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+
+  background: #210207;
+  color: white;
+
+  font-size: 11px;
+  font-weight: 500;
+  font-family: "Arimo",sans-serif;
+
+  width: 18px;
+  height: 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+}

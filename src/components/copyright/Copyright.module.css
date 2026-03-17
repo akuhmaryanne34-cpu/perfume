@@ -1,0 +1,27 @@
+.copyright{
+  background:#180105;
+  color:#c8b8b8;
+  padding:1rem 6rem;
+  font-family: "Arimo",sans-serif;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  font-size:13px;
+}
+
+.links{
+  display:flex;
+  gap:1.5rem;
+}
+
+.links a{
+  color:#c8b8b8;
+  text-decoration:none;
+    font-family: "Arimo",sans-serif;
+  transition:0.3s;
+}
+
+.links a:hover{
+  color:white;
+}

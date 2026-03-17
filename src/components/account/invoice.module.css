@@ -1,0 +1,109 @@
+.invoicePage{
+display:flex;
+justify-content:center;
+padding:60px 10%;
+background:#fafafa;
+min-height:80vh;
+}
+
+.invoiceCard{
+background:white;
+padding:40px;
+border-radius:10px;
+width:100%;
+max-width:600px;
+box-shadow:0 4px 20px rgba(0,0,0,0.05);
+}
+
+.title{
+margin-bottom:20px;
+font-family: "Arimo",sans-serif;
+font-size:28px;
+}
+
+.meta{
+margin-bottom:30px;
+color:#555;
+font-family: "Arimo",sans-serif;
+}
+
+.items{
+display:flex;
+flex-direction:column;
+gap:20px;
+margin-bottom:30px;
+}
+
+.itemRow{
+display:flex;
+gap:15px;
+align-items:center;
+border-bottom:1px solid #210207;
+padding-bottom:10px;
+}
+
+.itemRow img{
+width:60px;
+height:60px;
+object-fit:cover;
+border-radius:6px;
+}
+
+.total{
+font-size:20px;
+font-weight:600;
+font-family: "Arimo",sans-serif;
+margin-bottom:30px;
+}
+
+.buttons{
+display:flex;
+flex-wrap:wrap;
+font-family: "Arimo",sans-serif;
+gap:10px;
+}
+
+.buttons button{
+padding:10px 16px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+font-family: "Arimo",sans-serif;
+background:#210207;
+color:white;
+}
+
+.homeBtn{
+background:#ddd;
+color:#333;
+font-family: "Arimo",sans-serif;
+}
+
+.empty{
+padding:60px;
+text-align:center;
+font-size:18px;
+}
+
+/* Print Styling */
+
+@media print{
+
+body{
+background:white;
+}
+
+.buttons{
+display:none;
+}
+
+.invoicePage{
+padding:0;
+}
+
+.invoiceCard{
+box-shadow:none;
+border:none;
+}
+
+}

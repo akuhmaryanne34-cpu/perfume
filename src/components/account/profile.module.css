@@ -1,0 +1,120 @@
+.profileContainer{
+  max-width: 650px;
+  border: 1px solid #2a030a97;
+  padding: 10px 20px 25px;
+  border-radius: 15px;
+}
+
+.avatarSection{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:10px;
+  margin-bottom:30px;
+}
+
+.avatarSection img{
+  width:90px;
+  height:90px;
+  border-radius:50%;
+  object-fit:cover;
+}
+
+
+.hiddenInput{
+  display:none;
+}
+
+
+.uploadBtn{
+  padding:8px 16px;
+  border-radius:6px;
+  background:#2a030a;
+  color: #fff;
+  font-family: "Arimo",sans-serif;
+  border:1px solid #ddd;
+  cursor:pointer;
+  font-size:13px;
+}
+
+.avatarButtons{
+  display:flex;
+  gap:10px;
+  margin-top:10px;
+}
+
+.removeBtn{
+  padding:6px 12px;
+  border:none;
+  background:#eee;
+  cursor:pointer;
+  border-radius:4px;
+  font-size:12px;
+}
+
+.removeBtn:hover{
+  background:#ddd;
+}
+
+.form{
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+}
+
+.row{
+  display:flex;
+  gap:20px;
+}
+
+.field{
+  display:flex;
+  flex-direction:column;
+  width:100%;
+}
+
+.field label{
+  font-size:14px;
+  margin-bottom:6px;
+  font-family: "Roboto",sans-serif;
+  color:#2a030a;
+}
+
+.field input,
+.field select{
+  padding:12px;
+  border-radius:6px;
+  border:1px solid #2a030a;
+  font-size:14px;
+  font-family: "Arimo",sans-serif;
+}
+
+.field input:focus,
+.field select:focus{
+  outline:none;
+  border-color:#2a030a;
+}
+
+.button{
+  margin-top:10px;
+  padding:14px;
+  border:none;
+  border-radius:6px;
+  background:#2a030a;
+  color:white;
+  font-size:15px;
+  cursor:pointer;
+}
+
+.button:hover{
+  opacity:0.9;
+}
+
+.message{
+  background:#2a030a;
+  color:#fff !important;
+  font-family: "Arimo",sans-serif;
+  padding:10px;
+  border-radius:6px;
+  margin-bottom:15px;
+}

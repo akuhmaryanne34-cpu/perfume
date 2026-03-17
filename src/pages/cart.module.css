@@ -1,0 +1,110 @@
+.cartPage{
+  padding:40px 60px;
+}
+
+.cartPage h1{
+  font-size:28px;
+  margin-bottom:5px;
+  font-family: "Roboto",sans-serif;
+}
+
+.cartContainer{
+  display:grid;
+  grid-template-columns:2fr 1fr;
+  gap:40px;
+  margin-top:40px;
+}
+
+.cartItems{
+  background:white;
+  border-radius:10px;
+  padding:25px;
+}
+
+.clearBtn{
+  float:right;
+  font-family: "Arimo",sans-serif;
+  border:none;
+  padding:8px 16px;
+  border-radius:20px;
+  background:#2a030a;
+  color:white;
+  cursor:pointer;
+}
+
+.item{
+  display:grid;
+  grid-template-columns:80px 1fr 120px 40px;
+  align-items:center;
+  gap:20px;
+  margin-top:30px;
+}
+
+.item img{
+  width:70px;
+}
+
+.details h3{
+  font-size:16px;
+  font-family: "Roboto",sans-serif;
+}
+
+.details span{
+  color:#353535;
+  font-family: "Arimo",sans-serif;
+}
+
+.qty{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.qty button{
+  width:30px;
+  height:30px;
+  font-family: "Arimo",sans-serif;
+  border:none;
+  background:#eee;
+  cursor:pointer;
+}
+
+.delete{
+  border:none;
+  background:none;
+  cursor:pointer;
+}
+
+.summary{
+  background:white;
+  border-radius:10px;
+  font-family: "Arimo",sans-serif;
+  padding:25px;
+  height:fit-content;
+}
+
+.row{
+  display:flex;
+  justify-content:space-between;
+  margin-top:20px;
+}
+
+.total{
+  display:flex;
+  justify-content:space-between;
+  margin-top:25px;
+  font-family: "Arimo",sans-serif;
+  font-weight:600;
+}
+
+.checkout{
+  margin-top:25px;
+  width:100%;
+  padding:12px;
+  border:none;
+  font-family: "Arimo",sans-serif;
+  background:#2a030a;
+  color:white;
+  border-radius:25px;
+  cursor:pointer;
+}

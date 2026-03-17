@@ -1,0 +1,42 @@
+.checkoutPage {
+  padding: 3rem 8%;
+}
+
+.orderBox {
+  max-width: 500px;
+  border: 1px solid #eee;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.item img {
+  width: 60px;
+}
+
+.payButtons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.paystack {
+  background: #0ba4db;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.flutterwave {
+  background: #ff6600;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+}
