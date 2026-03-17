@@ -1,5 +1,5 @@
 import { useLocation, useNavigate } from "react-router-dom";
-import styles from "./Invoice.module.css";
+import styles from "../account/invoice/Invoice.module.css";
 
 const Invoice = () => {
   const location = useLocation();
