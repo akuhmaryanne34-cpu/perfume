@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
-import styles from "./Password.module.css";
+import styles from "./password.module.css";
 
 const Password = () => {
   const savedPassword = localStorage.getItem("userPassword") || "123456";

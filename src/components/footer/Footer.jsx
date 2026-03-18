@@ -1,4 +1,4 @@
-import styles from "./Footer.module.css";
+import styles from "./footer.module.css";
 import { Link } from "react-router-dom";
 import { FaTiktok, FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 
